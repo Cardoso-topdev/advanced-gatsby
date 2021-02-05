@@ -1,5 +1,5 @@
 <h1 align="center">
-  published this gatsby site at oscar-gatsby-first.surge.sh by Oscar
+  published this gatsby site at http://oscar-gatsby-first.surge.sh/ by Oscar
 </h1>
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
