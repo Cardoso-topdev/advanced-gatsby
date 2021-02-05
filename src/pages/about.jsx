@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
-import Header from "../components/header"
-import Container from "../components/container"
 import styles from "./about.module.css"
+import Layout from "../components/layout"
 
 console.log(styles)
 const User = props => (
@@ -17,10 +15,8 @@ const User = props => (
 
 export default function About() {
   return (
-    <div style={{ color: `teal` }}>
-      <Link to="/">Home</Link>
-      <Header headerText="About Gatsby" />
-      <Container>
+    <Layout>
+      <div style={{ color: `teal` }}>
         <User
           username="Maria Randall"
           avatar="https://raw.githubusercontent.com/gatsbyjs/gatsby/master/docs/docs/tutorial/part-two/pexels-daniel-xavier-1102341.jpg"
@@ -31,7 +27,7 @@ export default function About() {
           avatar="https://raw.githubusercontent.com/gatsbyjs/gatsby/master/docs/docs/tutorial/part-two/pexels-guilherme-almeida-1858175.jpg"
           excerpt="I'm Daniela Dewitt. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
         />
-      </Container>
-    </div>
+      </div>
+    </Layout>
   )
 }
