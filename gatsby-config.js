@@ -11,6 +11,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-sass`,
       options: {
         implementation: require("node-sass"),
@@ -22,6 +29,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
   ],
 }
