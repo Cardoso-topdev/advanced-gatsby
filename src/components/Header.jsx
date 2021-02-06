@@ -13,6 +13,7 @@ export default function Header(props) {
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
           <h3 style={{ display: `inline` }}>MySweetSite</h3>
         </Link>
+        <h3>{props.data.site.siteMetadata.title}</h3>
         <ul style={{ listStyle: `none`, float: `right` }}>
           <ListLink to="/">Home</ListLink>
           <ListLink to="/about/">About</ListLink>

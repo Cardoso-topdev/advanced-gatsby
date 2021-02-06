@@ -6,6 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Title from siteMetadata`,
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-sass`,
@@ -19,5 +22,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-emotion`,
   ],
 }
