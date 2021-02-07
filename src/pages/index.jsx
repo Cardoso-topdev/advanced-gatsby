@@ -6,7 +6,6 @@ import { css } from "@emotion/react"
 import { Link } from "gatsby"
 
 export default function Home({data}) {
-  let link_to = "/"
   return (<div style={{ color: `purple` }}>
     <Layout>
       <p>What a world.</p>
