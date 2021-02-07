@@ -1,7 +1,3 @@
-<h1 align="center">
-  published this gatsby site at http://oscar-gatsby-first.surge.sh/ by Oscar
-</h1>
-
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
@@ -101,3 +97,14 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+
+<h1 align="center">
+  published this gatsby site at http://oscar-gatsby-first.surge.sh/ by Oscar
+</h1>
+
+#### About
+    based from this ref: https://www.gatsbyjs.com/docs/tutorial/
+    local version launch method: gatsby develop
+    build method: gatsby build
+    deploy method: surge public
